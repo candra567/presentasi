@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jul 29, 2022 at 08:29 PM
+-- Generation Time: Jul 31, 2022 at 05:08 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.0.18
 
@@ -110,11 +110,11 @@ CREATE TABLE `table_siswa` (
 --
 
 INSERT INTO `table_siswa` (`id`, `name_siswa`, `no_siswa`, `kelas_siswa`, `created_at`, `updated_at`) VALUES
-(1, 'Prof. Isaac Macejkovic DDS', 24, 'XI TKJ', '2022-07-29 11:29:32', '2022-07-29 11:29:32'),
-(2, 'Mr. Herbert DuBuque', 11, 'XI TKJ', '2022-07-29 11:29:32', '2022-07-29 11:29:32'),
-(3, 'Prof. Eloy Kutch', 23, 'XI TKJ', '2022-07-29 11:29:32', '2022-07-29 11:29:32'),
-(4, 'Mr. Dewitt Ledner', 27, 'XI TKJ', '2022-07-29 11:29:32', '2022-07-29 11:29:32'),
-(5, 'Hiram Harber', 1, 'XI TKJ', '2022-07-29 11:29:32', '2022-07-29 11:29:32');
+(1, 'Louvenia Langosh', 26, 'XI TKJ', '2022-07-31 07:57:26', '2022-07-31 07:57:26'),
+(2, 'Lennie Gulgowski', 16, 'XI TKJ', '2022-07-31 07:57:26', '2022-07-31 07:57:26'),
+(3, 'Mr. Morris Leuschke', 26, 'XI TKJ', '2022-07-31 07:57:26', '2022-07-31 07:57:26'),
+(4, 'Dr. Brannon Vandervort III', 17, 'XI TKJ', '2022-07-31 07:57:26', '2022-07-31 07:57:26'),
+(5, 'Randy Feest Sr.', 27, 'XI TKJ', '2022-07-31 07:57:26', '2022-07-31 07:57:26');
 
 --
 -- Indexes for dumped tables
@@ -179,7 +179,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT for table `table_siswa`
 --
 ALTER TABLE `table_siswa`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
